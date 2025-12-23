@@ -1,5 +1,6 @@
 ---
 title: "Journal Review [FLAVOUR]"
+output-dir: docs
 title-slide-attributes:
   data-background-image: "image/FFRvsIVUS.png"
   data-background-size: contain
@@ -60,7 +61,7 @@ editor: visual
 
 ## setting_patient flow
 
-![](image/patient flow.jpg){fig-align="center" width="80%"}
+![](image/patient%20flow.jpg){fig-align="center" width="80%"}
 
 ## setting_PCI criteria
 
@@ -69,7 +70,7 @@ editor: visual
 
 ## setting_table at baseline
 
-![](image/character table at baseline.jpg){fig-align="center" width="80%"}
+![](image/character%20table%20at%20baseline.jpg){fig-align="center" width="80%"}
 
 ## setting_success criteria
 
@@ -87,7 +88,7 @@ editor: visual
 
 ## setting_study design
 
-![](image/study flow.jpg){fig-align="center" width="80%"}
+![](image/study%20flow.jpg){fig-align="center" width="80%"}
 
 ## setting_procedure
 
@@ -95,7 +96,7 @@ editor: visual
 
 ## setting_table at procedure
 
-![](image/procedur table at baseline.jpg){fig-align="center" width="80%"}
+![](image/procedur%20table%20at%20baseline.jpg){fig-align="center" width="80%"}
 
 # analysis
 
@@ -139,7 +140,7 @@ editor: visual
 ::: panel-tabset
 ### table
 
-![](image/outcome.jpg){fig-align="center" width="80%"} \### plot ![](image/primary outcome curve.jpg){fig-align="center" width="80%"}
+![](image/outcome.jpg){fig-align="center" width="80%"} \### plot ![](image/primary%20outcome%20curve.jpg){fig-align="center" width="80%"}
 :::
 
 ## result_addition
@@ -151,7 +152,7 @@ editor: visual
 ::: panel-tabset
 ### table
 
-![](image/pp outcome.png){fig-align="center" width="80%"} \### plot ![](image/pp outcome curve.jpg){fig-align="center" width="80%"}
+![](image/pp%20outcome.png){fig-align="center" width="80%"} \### plot ![](image/pp%20outcome%20curve.jpg){fig-align="center" width="80%"}
 :::
 
 ## result
@@ -168,20 +169,43 @@ FLAVOUR 실험 결과 intermediate coronary stenosis 환자를 대상으로 PCI 
 
 ## discussion 1
 
-3. 성공적인 PCI는 정의를 어떻게 하느냐에 따라 달라지며, 이러한 기준을 정하기 위해 추가적인 연구가 필요합니다.
+3.  성공적인 PCI는 정의를 어떻게 하느냐에 따라 달라지며, 이러한 기준을 정하기 위해 추가적인 연구가 필요합니다.
 
 # limitation
 
 ## limitation 1
-1. 저위험군 환자를 포함하고 있어 해부학적 복잡성이 낮은 모집단임을 나타내므로, 고위험군 환자에게 적용되지 않을 수 있습니다.
 
-2. 시술 의사들이 시험그룹 배정 즉, 어느 그룹에 속한지 알고 있었습니다.
+1.  저위험군 환자를 포함하고 있어 해부학적 복잡성이 낮은 모집단임을 나타내므로, 고위험군 환자에게 적용되지 않을 수 있습니다.
 
-3. 혈관재개통술의 빈도는 PCI 기준 및 기저 특성에 따라 달라질 수 있습니다.
+2.  시술 의사들이 시험그룹 배정 즉, 어느 그룹에 속한지 알고 있었습니다.
+
+3.  혈관재개통술의 빈도는 PCI 기준 및 기저 특성에 따라 달라질 수 있습니다.
 
 ## limitation 2
-4. PCI를 guide하기 위한 방법은 FFR, IVUS뿐만 아니라 다양하여 효능 비교를 위해 추가연구가 필요합니다.
 
-5. 해당 연구의 PCI기준은 병변 수준의 혈역학적 중요성이나 plaque 취약성의 틍징을 통합하지 않았습니다.
+4.  PCI를 guide하기 위한 방법은 FFR, IVUS뿐만 아니라 다양하여 효능 비교를 위해 추가연구가 필요합니다.
 
-6. 비아시아계 인종의 환자는 포함되지 않았습니다. 
+5.  해당 연구의 PCI기준은 병변 수준의 혈역학적 중요성이나 plaque 취약성의 틍징을 통합하지 않았습니다.
+
+6.  
+
+    ## 비아시아계 인종의 환자는 포함되지 않았습니다.
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
