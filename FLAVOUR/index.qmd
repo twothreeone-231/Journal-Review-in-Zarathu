@@ -1,6 +1,5 @@
 ---
 title: "Journal Review [FLAVOUR]"
-output-dir: docs
 title-slide-attributes:
   data-background-image: "image/FFRvsIVUS.png"
   data-background-size: contain
@@ -10,12 +9,7 @@ to Guide PCI "
 author: "Sewon Lee"
 format:
   revealjs:
-    theme: white
-    slide-number: true
-    transition: slide
     footer: '[Reference: NEJM 2022](https://www.nejm.org/doi/10.1056/NEJMoa2201546)'
-    scrollable: true
-    logo: zarathu.jpg
 editor: visual
 ---
 
@@ -75,11 +69,11 @@ editor: visual
 ## setting_success criteria
 
 -   2차
--   FFR Group: FFR \>=0.88 or stent 전후 FFR차이 \< 0.05
--   IVUS Group: stent burden \<55% & 최소 stent 면적 \>= 5.5mm\^2
+   FFR Group: FFR \>=0.88 or stent 전후 FFR차이 \< 0.05 <br>
+   IVUS Group: stent burden \<55% & 최소 stent 면적 \>= 5.5mm\^2
 -   1차
--   사건: 모든 원인으로 인한 사망, 심근경색 또는 혈관재개통술의 복합 결과
--   P(FFR Group) - P(IVUS Group) \<= 2.5%
+   사건: 모든 원인으로 인한 사망, 심근경색 또는 혈관재개통술의 복합 결과
+   P(FFR Group) - P(IVUS Group) \<= 2.5%
 
 ## setting_success measure
 
@@ -127,20 +121,24 @@ editor: visual
 
 ## result
 
--   1차: 5%의 오류확률 하에서 P(FFR Group)- P(IVUS Group) = -0.4%p =\> p-value 0.01
+-   1차: 5%의 오류확률 하에서 P(FFR Group)- P(IVUS Group) = -0.4%p =\> p-value 0.01 <br>
 
--   95% CI 상한 1.8%p, 97.5% CI 상한 2.2%p
+  95% CI 상한 1.8%p, 97.5% CI 상한 2.2%p
 
--   2차: 5%의 오류확률 하에서 P(FFR Group)- P(IVUS Group) = -0.5%p =\> p-value 0.02
+-   2차: 5%의 오류확률 하에서 P(FFR Group)- P(IVUS Group) = -0.5%p =\> p-value 0.02 <br>
 
--   95% CI 상한 1.8%p, 97.5% CI 상한 2.3%p
+   95% CI 상한 1.8%p, 97.5% CI 상한 2.3%p
 
 ## result_ITT
 
 ::: panel-tabset
 ### table
 
-![](image/outcome.jpg){fig-align="center" width="80%"} \### plot ![](image/primary%20outcome%20curve.jpg){fig-align="center" width="80%"}
+![](image/outcome.jpg){fig-align="center" width="80%"}
+
+### plot 
+
+![](image/primary%20outcome%20curve.jpg){fig-align="center" width="80%"}
 :::
 
 ## result_addition
@@ -152,7 +150,10 @@ editor: visual
 ::: panel-tabset
 ### table
 
-![](image/pp%20outcome.png){fig-align="center" width="80%"} \### plot ![](image/pp%20outcome%20curve.jpg){fig-align="center" width="80%"}
+![](image/pp%20outcome.png){fig-align="center" width="80%"}
+
+### plot 
+![](image/pp%20outcome%20curve.jpg){fig-align="center" width="80%"}
 :::
 
 ## result
@@ -187,25 +188,4 @@ FLAVOUR 실험 결과 intermediate coronary stenosis 환자를 대상으로 PCI 
 
 5.  해당 연구의 PCI기준은 병변 수준의 혈역학적 중요성이나 plaque 취약성의 틍징을 통합하지 않았습니다.
 
-6.  
-
-    ## 비아시아계 인종의 환자는 포함되지 않았습니다.
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+6.  비아시아계 인종의 환자는 포함되지 않았습니다.

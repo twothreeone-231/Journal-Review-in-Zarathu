@@ -1,3 +1,12 @@
 project:
-  type: default
+  type: website
   output-dir: docs
+  
+format:
+  revealjs:
+    theme: white
+    slide-number: true
+    transition: slide
+    scrollable: true
+    logo: zarathu.jpg
+    footer: "Journal Review - Sewon Lee" # 필요시 각 파일별로 변경
